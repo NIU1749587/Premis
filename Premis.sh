@@ -28,6 +28,9 @@ opcioNoValida() {
 menu
 case $opcio in
 		0)
+			clear
+			echo "Gràcies per la seva visita!"
+			sleep 2
 			exit 0
 			;;
 		1)
@@ -60,7 +63,7 @@ case $opcio in
 			menu
 			clear
 			;;
-	easc
+	esac
 	
 
 while [ $opcio -ne 0 ];
@@ -68,6 +71,9 @@ do
 	menu
 	case $opcio in
 		0)
+			clear
+			echo "Gràcies per la seva visita!"
+			sleep 2
 			exit 0
 			;;
 		1)
@@ -100,5 +106,5 @@ do
 			menu
 			clear
 			;;
-	easc
+	esac
 done
