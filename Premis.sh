@@ -25,38 +25,80 @@ opcioNoValida() {
 	clear
 }
 
-
+menu
 case $opcio in
-	0)
-		exit 0
-		;;
-	1)
-		clear
-		enDesenvolupament
-		read tecla
-		clear
-		;;
-	2)
-		clear
-		enDesenvolupament
-		read tecla
-		clear
-		;;
-	3)
-		clear
-		enDesenvolupament
-		read tecla
-		clear
-		;;
-	4)
-		clear
-		enDesenvolupament
-		read tecla
-		clear
-		;;
-	*)
-		clear
-		opcioNoValida
-		menu
-		clear
-easc
+		0)
+			exit 0
+			;;
+		1)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		2)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		3)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		4)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		*)
+			clear
+			opcioNoValida
+			menu
+			clear
+			;;
+	easc
+	
+
+while [ $opcio -ne 0 ];
+do
+	menu
+	case $opcio in
+		0)
+			exit 0
+			;;
+		1)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		2)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		3)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		4)
+			clear
+			enDesenvolupament
+			read tecla
+			clear
+			;;
+		*)
+			clear
+			opcioNoValida
+			menu
+			clear
+			;;
+	easc
+done
