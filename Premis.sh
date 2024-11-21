@@ -30,6 +30,8 @@ enDesenvolupament() {
 
 if [ $opcio -eq 0 ];
 then
+	echo "Moltes gràcies per la seva visita a Amor pel Setè Art."
+	sleep 2
 	exit 0
 elif [ $opcio -eq 1 ];
 then
